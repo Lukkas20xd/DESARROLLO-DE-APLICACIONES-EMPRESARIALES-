@@ -27,7 +27,7 @@ def get_connection():
 conn = get_connection()
 
 st.set_page_config(page_title="Registro de Clientes", layout="wide")
-st.title("👥 Gestión de Registro de Clientes")
+st.title("Gestión de Registro de Clientes")
 
 # --- FORMULARIO DE ENTRADA ---
 with st.form("form_agregar", clear_on_submit=True):
