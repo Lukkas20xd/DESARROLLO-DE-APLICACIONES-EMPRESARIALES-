@@ -27,7 +27,7 @@ def login():
             if username in CREDENTIALS and CREDENTIALS[username]["password"] == password:
                 st.session_state.logged_in = True
                 st.session_state.username = username
-                st.session_state.role = CREDENTIALS[username]["role"]
+                st.session_state.role = CREDENTIALS[username]["role"] 
                 st.success("Acceso concedido!")
                 st.rerun()
             else:
